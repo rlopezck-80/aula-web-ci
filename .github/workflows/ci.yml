@@ -1,4 +1,4 @@
-name: CI Web Docker 2
+name: CI Web Docker 
 
 on:
   push:
