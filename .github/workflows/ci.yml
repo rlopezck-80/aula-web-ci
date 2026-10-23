@@ -25,7 +25,7 @@ jobs:
         run: test -f dockerfile 
 
       - name: Construir imagen Docker
-        run: docker build -t aula-web:ci .
+        run: docker build -t aula-web2:ci .
 
       - name: Iniciar sesion en GHCR
         if: github.event_name == 'push'
